@@ -89,51 +89,25 @@ body {
 		margin: 40px auto;
 	}
 
-	&__container {
+	&__slider {
 		max-width: 900px;
 		height: 400px;
 		background-color: #BBB;
 		margin: auto;
-	}
-	
-	&__container {
 		position: relative;
 	}
 
+	&__container {
+		width: 112px;
+		float: right;
+	}
+
 	&__item {
-		position: absolute;
+
 		width: 80px;
 		height: 80px;
 		background-color: #FFF;
-		right: 16px;
-		top: 16px;
-
-		&--2 {
-			position: absolute;
-			width: 80px;
-			height: 80px;
-			background-color: #FFF;
-			right: 16px;
-			top: 114px;
-		}
-
-		&--3 {
-			position: absolute;
-			width: 80px;
-			height: 80px;
-			background-color: #FFF;
-			right: 16px;
-			top: 210px;
-		}
-
-		&--4 {
-			position: absolute;
-			width: 80px;
-			height: 80px;
-			background-color: #FFF;
-			right: 16px;
-			top: 306px;
-		}
+		margin: 16px;
 	}
 
 }
