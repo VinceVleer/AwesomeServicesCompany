@@ -4,4 +4,4 @@ Based on design 5 as found on Zonkey
 
 How to test:
 
-Pull files to your local machine and open index.html in a browser of your choice.
+Pull files to your local machine and open index.html (located in dist folder) in a browser of your choice.
